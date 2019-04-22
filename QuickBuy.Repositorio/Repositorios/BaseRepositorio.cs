@@ -7,17 +7,17 @@ namespace QuickBuy.Repositorio.Repositorios
 {
     public class BaseRepositorio<TEntity> : IBaseRepositorio<TEntity> where TEntity : class
     {
+        public BaseRepositorio()
+        {
+
+        }
+
         public void Adicionar(TEntity entity)
         {
             throw new NotImplementedException();
         }
 
         public void Atualizar(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Dispose()
         {
             throw new NotImplementedException();
         }
@@ -33,6 +33,11 @@ namespace QuickBuy.Repositorio.Repositorios
         }
 
         public void Remover(TEntity entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Dispose()
         {
             throw new NotImplementedException();
         }
